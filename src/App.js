@@ -4,12 +4,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import * as Pages from 'pages';
 
 function App() {
-  console.log('hello');
-  console.log('hello');
-  console.log('hello');
-  console.log('hello');
-  console.log('hello');
-  console.log('hello');
   return (
     <BrowserRouter>
       <Layout>
