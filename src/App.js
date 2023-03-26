@@ -8,13 +8,12 @@ function App() {
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route path="/" element={<Pages.Home />} />
+           <Route path="/" element={<Pages.Home />} />
           <Route path="/ministries" element={<Pages.Ministries />} />
           <Route path="/sermons" element={<Pages.Sermons />} />
           <Route path="/events" element={<Pages.Events />} />
           <Route path="/blogs" element={<Pages.Blog />} />
           <Route path="/blogs/:id" element={<Pages.SingleBlog />} />
-         
           <Route path="/contact" element={<Pages.Contact />} />
         </Routes>
       </Layout>
