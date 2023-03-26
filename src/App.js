@@ -5,14 +5,12 @@ import * as Pages from 'pages';
 
 function App() {
   console.log('hello');
-  console.log('hidads');
   return (
     <BrowserRouter>
       <Layout>
         <Routes>
           <Route path="/" element={<Pages.Home />} />
           <Route path="/ministries" element={<Pages.Ministries />} />
-
           <Route path="/sermons" element={<Pages.Sermons />} />
           <Route path="/events" element={<Pages.Events />} />
           <Route path="/blogs" element={<Pages.Blog />} />
