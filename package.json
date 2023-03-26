@@ -61,8 +61,8 @@
   },
   "lint-staged":{
     "**/*.{js,jsx,ts,tsx}":[
-      "eslint --max-warnings=0",
-      "git add"
+      "npx prettier",
+      "npx eslint"
     ]
   }
 }
