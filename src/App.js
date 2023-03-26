@@ -5,6 +5,7 @@ import * as Pages from 'pages';
 
 function App() {
   console.log('hello');
+  console.log('hidads');
   return (
     <BrowserRouter>
       <Layout>
