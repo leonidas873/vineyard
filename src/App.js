@@ -9,7 +9,6 @@ function App() {
   console.log('hello');
   console.log('hello');
   console.log('hello');
-
   return (
     <BrowserRouter>
       <Layout>
