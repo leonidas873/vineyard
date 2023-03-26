@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husky install",
-    "lint": "eslint \"**/*.js\" --max-warnings=0"
+    "lint": "eslint --no-error-on-unmatched-pattern src/**/*.{js,jsx,ts,tsx,json} --max-warnings=0"
   },
   "eslintConfig": {
     "extends": [
