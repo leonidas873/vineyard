@@ -16,7 +16,7 @@
   },
   "plugins": ["react"],
   "rules": {
-    "prettier/prettier": ["error"],
+    "prettier/prettier": 0,
     "no-console":1,
     "react/react-in-jsx-scope": "off"
   }

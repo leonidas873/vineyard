@@ -5,8 +5,7 @@ function BlogsContainer() {
     <div>
       <h1>blogs</h1>
       <BlogCard />
-      <BlogCard />
-      <BlogCard />
+      
     </div>
   );
 }

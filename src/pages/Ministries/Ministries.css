@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+.Ministries-Container{
+   
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    margin:0 auto;
+
+}
+.Ministries-Wrapper{
+   
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 100px;
+   
+}
+.Youth-Family-Block{
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 3;
+    width: 300px;
+    font-weight: 300;
+    margin-left: 50px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.Right-Block-Title{
+    font-weight: 400;
+}
+.Left-block{
+    width: 700px;
+    margin-top: 20px;
+}
+.Left-Block-Title{
+    font-family: "Barlow Condensed", Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+.Left-Block-Text{
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+    margin-top: 15px;
+    display: inline-block;
+}
+.List-block{
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 14px;
+    line-height: 3;
+    font-weight: 400;
+    color: #999999;
+    margin-top: 15px; 
+    display: inline-block;
+    margin-bottom: 80px;
+    margin-top: 70px;
+}
+.Border-Bottom{
+    border-bottom: 1px solid #dfdada;
+    margin-bottom: 50px;
+}
+@media(max-width:1200px){
+    .Ministries-Container{
+        width: 1000px;
+    }
+    .Ministries-Wrapper{
+        width: 900px;
+    }
+}
+@media(max-width:1000px){
+    .Ministries-Container{
+        width: 700px;
+    }
+    .Ministries-Wrapper{
+        width: 700px;
+    }
+}
+
+@media(max-width:700px){
+    .Ministries-Container{
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Ministries-Wrapper{
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+    }
+    .Youth-Family-Block{
+        margin-left: 0px;
+    }
+}
+
+
